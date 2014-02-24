@@ -1,0 +1,27 @@
+{
+  "name": "run-paralelly",
+  "version": "0.0.0",
+  "description": "Run given commands as parallel processes",
+  "main": "index.js",
+  "scripts": {
+    "test": "prova"
+  },
+  "devDependencies": {
+    "prova": "*"
+  },
+  "keywords": [
+    "process",
+    "iteration",
+    "parallel",
+    "child_process"
+  ],
+  "repository": {
+    "url": "git@github.com:azer/run-paralelly.git",
+    "type": "git"
+  },
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "BSD",
+  "dependencies": {
+    "iter": "0.0.x"
+  }
+}
