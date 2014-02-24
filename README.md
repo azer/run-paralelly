@@ -23,7 +23,7 @@ run(['apt-get install foo', 'apt-get install bar', 'just fail'], function (error
   // => "Installed foo"
 
   stderrs[0]
-  // undefined
+  // ''
 
   stderrs[1]
   // => "bar not found in package registry"
