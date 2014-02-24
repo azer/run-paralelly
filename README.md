@@ -1,6 +1,8 @@
 ## run-paralelly
 
-Run given commands as parallel processes
+Run given commands as child processes paralelly
+
+See also [run-serially](http://github.com/azer/run-paralelly)
 
 ## Install
 
