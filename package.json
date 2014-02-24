@@ -1,6 +1,6 @@
 {
   "name": "run-paralelly",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Run given commands as parallel processes",
   "main": "index.js",
   "scripts": {
