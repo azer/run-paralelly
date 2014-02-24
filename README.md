@@ -13,7 +13,7 @@ $ npm install run-paralelly
 ```js
 run = require('run-paralelly')
 
-run(['apt-get install foo', 'apt-get install bar', 'just fail', 'apt-get install qux'], function (errors, stdouts, stderrs) {
+run(['apt-get install foo', 'apt-get install bar', 'just fail'], function (errors, stdouts, stderrs) {
   if (errors) {
     errors[0]
     // => { command: 'just fail', index: 2, error: 'Command not found: "just fail"' }
