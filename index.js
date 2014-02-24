@@ -1,18 +1,22 @@
-var iter = require("iter").parallel;
+var iter = require("iter");
 var exec = require("child_process").exec;
 
-module.exports = run;
+module.exports = parallel;
+module.exports.run = run;
 
-function run (commands, callback) {
+function parallel (commands, callback) {
+  run(iter.parallel, commands, callback);
+}
+
+function run (iterator, commands, callback) {
   var errors = undefined;
   var stdouts = [];
   var stderrs = [];
 
-  iter(commands.length)
+  iterator(commands.length)
     .error(error)
     .done(done)
     .run(each);
-
 
   function each (done, i) {
     var cmd = commands[i];
