@@ -2,7 +2,7 @@
 
 Run given commands as child processes paralelly
 
-See also [run-serially](http://github.com/azer/run-paralelly)
+See also [run-serially](http://github.com/azer/run-serially)
 
 ## Install
 
