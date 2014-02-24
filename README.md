@@ -2,6 +2,14 @@
 
 Run given commands as parallel processes
 
+## Install
+
+```bash
+$ npm install run-paralelly
+```
+
+## Usage
+
 ```js
 run = require('run-paralelly')
 
@@ -20,10 +28,4 @@ run(['apt-get install foo', 'apt-get install bar', 'just fail', 'apt-get install
   stderrs[1]
   // => "bar not found in package registry"
 })
-```
-
-## Install
-
-```bash
-$ npm install run-paralelly
 ```
