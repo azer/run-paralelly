@@ -7,7 +7,7 @@ See also [run-serially](http://github.com/azer/run-serially)
 ## Install
 
 ```bash
-$ npm install run-serially
+$ npm install run-paralelly
 ```
 
 ## Usage
